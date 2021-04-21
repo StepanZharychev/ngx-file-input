@@ -2,7 +2,18 @@
   "name": "ngx-file-input",
   "version": "1.0.0",
   "author": "Stepan Zharychev",
-  "repository": "https://github.com/StepanZharychev/ngx-file-input.git",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StepanZharychev/ngx-file-input.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-cli",
+    "input",
+    "file",
+    "form"
+  ],
   "peerDependencies": {
     "@angular/common": "^10.1.6",
     "@angular/core": "^10.1.6"

@@ -2,13 +2,25 @@
   "name": "ngx-file-input",
   "version": "1.0.0",
   "author": "Stepan Zharychev",
-  "repository": "https://github.com/StepanZharychev/ngx-file-input.git",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StepanZharychev/ngx-file-input.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-cli",
+    "input",
+    "file",
+    "form"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "publish-lib": "npm publish dist/ngx-file-input"
   },
   "private": true,
   "dependencies": {
