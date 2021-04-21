@@ -90,8 +90,7 @@ Custom validator checks for size (if specified) and returns the following object
 Name | Type | Description | Default Value
 --- | --- | --- | ---
 formats | string[] | Sets [accept](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#htmlattrdefaccept) property of HTML5 File Input | []
-size | `number` or `string` | Used for validation. Accepts value as `number` in **
-bytes** or `string` in natural language (e.g. 200kb, 2Mb, etc.) | 0
+size | `number` or `string` | Used for validation. Accepts value as `number` in **bytes** or `string` in natural language (e.g. 200kb, 2Mb, etc.) | 0
 multiple | boolean | Sets [multiple](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file#htmlattrdefmultiple) property of HTML5 File Input | false
 classes | string | Sets class property of HTML5 File Input | empty string
 
