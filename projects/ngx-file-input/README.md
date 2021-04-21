@@ -8,7 +8,7 @@ Angular validation for file size, and ability to set up native properties.
 - [Installation](#installation)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Model and Options](#modelandoptions)
+- [Model and Options](#model-and-options)
 - [Styling](#styling)
 
 ## Demo
