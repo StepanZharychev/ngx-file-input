@@ -1,0 +1,15 @@
+{
+  "name": "ngx-file-input",
+  "version": "1.0.0",
+  "author": "Stepan Zharychev",
+  "repository": "https://github.com/StepanZharychev/ngx-file-input.git",
+  "peerDependencies": {
+    "@angular/common": "^10.1.6",
+    "@angular/core": "^10.1.6"
+  },
+  "dependencies": {
+    "@types/filesize-parser": "^1.5.0",
+    "filesize-parser": "^1.5.0",
+    "tslib": "^2.0.0"
+  }
+}

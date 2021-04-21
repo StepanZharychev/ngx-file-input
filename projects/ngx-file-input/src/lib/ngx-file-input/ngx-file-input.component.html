@@ -1,0 +1,6 @@
+<input type="file"
+       [id]="id || ''"
+       [ngClass]="options.classes || ''"
+       [accept]="options.formats && options.formats.length ? options.formats.join(',') : ''"
+       [multiple]="options.multiple || false"
+       (change)="contentChanged($event)">
