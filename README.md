@@ -59,7 +59,7 @@ You can also use it in the form:
 
 ## Model and Options
 
-Name | Type | Description | Default Value
+Name (or directive) | Type | Description | Default Value
 --- | --- | --- | ---
 `ngModel` | File[] (array of [Files](https://developer.mozilla.org/en-US/docs/Web/API/File), not FileList) | - | []
 `@Input()` id | string | Id which is going to be set to native input (e.g. to be used with *labels*) | empty string
