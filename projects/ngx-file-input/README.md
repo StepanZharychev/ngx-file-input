@@ -4,10 +4,15 @@ Lightweight component which helps to utilise native capabilities
 of [HTML5 File Input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file). Also provides custom
 Angular validation for file size, and ability to set up native properties.
 
+- [Demo](#demo)
 - [Installation](#installation)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Model and Options](#modelandoptions)
 - [Styling](#styling)
+
+## Demo
+[Click here](https://stepanzharychev.com:8000/file-input)
 
 ## Installation
 

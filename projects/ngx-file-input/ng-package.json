@@ -3,5 +3,9 @@
   "dest": "../../dist/ngx-file-input",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "filesize-parser",
+    "@types/filesize-parser"
+  ]
 }
