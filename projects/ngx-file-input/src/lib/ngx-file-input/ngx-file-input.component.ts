@@ -64,7 +64,10 @@ export class NgxFileInputComponent implements ControlValueAccessor, Validator {
   }
 
   public writeValue(value: any): void {
-    // Doing nothing as you can't set file input value programmatically
+    // Doing nothing except reset as you can't set file input value programmatically
+    if (value === null || !value.length) {
+      this.internalValue = [];
+    }
   }
 
   public registerOnChange(fn): void {
