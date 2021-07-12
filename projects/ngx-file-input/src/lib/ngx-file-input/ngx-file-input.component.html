@@ -1,4 +1,4 @@
-<input type="file"
+<input #fileInput type="file"
        [id]="id || ''"
        [ngClass]="options.classes || ''"
        [accept]="options.formats && options.formats.length ? options.formats.join(',') : ''"

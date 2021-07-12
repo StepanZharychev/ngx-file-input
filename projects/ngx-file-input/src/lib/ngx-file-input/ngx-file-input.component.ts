@@ -1,4 +1,4 @@
-import { Component, forwardRef, Input, EventEmitter, Output } from '@angular/core';
+import { Component, forwardRef, Input, EventEmitter, Output, ViewChild, ElementRef } from '@angular/core';
 import {
   AbstractControl,
   ControlValueAccessor,
@@ -28,6 +28,9 @@ import parseFileSize from 'filesize-parser';
   ]
 })
 export class NgxFileInputComponent implements ControlValueAccessor, Validator {
+  @ViewChild('fileInput')
+  public fileInput: ElementRef;
+
   private defaultOptions = {
     formats: [],
     size: 0,
@@ -67,6 +70,7 @@ export class NgxFileInputComponent implements ControlValueAccessor, Validator {
     // Doing nothing except reset as you can't set file input value programmatically
     if (value === null || !value.length) {
       this.internalValue = [];
+      this.fileInput.nativeElement.value = null;
     }
   }
 
